@@ -46,8 +46,7 @@ while True:
     loop = input("Do you want to calculate again?"
                  "\nYes or No\n:")
     if loop.strip().lower() in ["No", "N", "n", "no", "NO"]:
-        print("Got it! Going back...")
+        print(f"Good bye! here's your answer history 2: {history}")
         break
     else:
-        print("Goodbye!")
-        print(f"Answer history: {history}")
+        print("Got it! Going back...")
